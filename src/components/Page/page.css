@@ -13,6 +13,7 @@ body {
 }
 
 .btmPage {
+  padding: 1rem !important;
   width: 80%;
   background-color: #4b6b9667;
   color: aliceblue;
