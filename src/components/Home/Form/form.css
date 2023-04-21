@@ -1,0 +1,16 @@
+.containerForm {
+  height: 80vh;
+  margin-left: 10% !important;
+}
+
+.line-right {
+  border-right: solid 2px #ccc;
+}
+
+.inputsForm {
+  padding: 1em !important;
+  border-radius: 10px;
+  border: solid 2px rgb(133, 223, 140);
+  margin: 1rem !important;
+  font-weight: bold;
+}

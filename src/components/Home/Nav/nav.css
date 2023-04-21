@@ -1,0 +1,20 @@
+.containerNav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  background-color: #6decb1fb;
+}
+
+.iconHome {
+  transition: ease .5s;
+  border: none;
+  background-color: #01013100;
+}
+
+.iconHome:hover {
+  background-color: rgba(250, 235, 215, 0.377);
+  padding: 0 1.5rem !important;
+  border-radius: 30%;
+}

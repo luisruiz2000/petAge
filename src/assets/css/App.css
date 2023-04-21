@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.contentHome {
+  text-align: center;
+  margin: 0 0 0 10% !important;
+  width: 90% !important;
+}
