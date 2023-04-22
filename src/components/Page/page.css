@@ -6,7 +6,7 @@ body {
 .containerPage {
   color: rgb(243, 246, 248);
   min-height: 100vh;
-  background: linear-gradient(70deg, #fc4444 50%, #91b5e4 50%);
+  background: linear-gradient(80deg, #91b5e4 50%, #fc4444 50%) !important;
 }
 
 .icons {
@@ -28,7 +28,7 @@ body {
 @media (max-width: 1024px) {
 
   .containerPage {
-    background: linear-gradient(75deg, #91b5e4 50%, #fc4444 50%);
+    background: linear-gradient(to bottom, #91b5e4, #fc4444) !important;
   }
 
   .textDescription {
@@ -51,15 +51,19 @@ body {
     background: linear-gradient(to bottom, #91b5e4, #fc4444) !important;
   }
 
-  .descriptonPage {
-    width: 95% !important;
-    padding-top: 2rem !important;
-  }
-
   .containerPage {
     flex-direction: column;
-    background: linear-gradient(to bottom, #91b5e4, #fc4444);
+    background: linear-gradient(to bottom, #91b5e4, #fc4444) !important;
+    padding-top: 2rem !important;
+    justify-content: center;
   }
+
+  .descriptonPage {
+    justify-content: center !important;
+    width: 95% !important;
+
+  }
+
 
   .textDescription {
     margin: 0 !important;
@@ -74,6 +78,14 @@ body {
 
   .containerIcons {
     margin: 1.5rem 1rem !important;
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+    margin: 1.5rem 1rem !important;
+  }
+
+  .icons {
+    width: 2.5rem;
+    margin: .5rem .8rem !important;
   }
 
   .btmPage {
@@ -92,17 +104,6 @@ body {
 
   .textDescription {
     font-size: 1rem !important;
-  }
-
-  .containerIcons {
-    flex-wrap: wrap;
-    justify-content: space-evenly !important;
-    margin: 1.5rem 1rem !important;
-  }
-
-  .icons {
-    width: 2.5rem;
-    margin: .5rem .8rem !important;
   }
 
   .petsIcon {
