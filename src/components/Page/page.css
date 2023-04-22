@@ -1,11 +1,12 @@
 body {
   overflow: hidden;
+  overflow: width;
 }
 
 .containerPage {
   color: rgb(243, 246, 248);
-  min-height: 102vh;
-  background: linear-gradient(60deg, #91b5e4 50%, #fc4444 50%);
+  min-height: 100vh;
+  background: linear-gradient(70deg, #fc4444 50%, #91b5e4 50%);
 }
 
 .icons {
@@ -22,4 +23,93 @@ body {
 .btmPage:hover {
   color: black;
   background-color: beige;
+}
+
+@media (max-width: 1024px) {
+
+  .containerPage {
+    background: linear-gradient(75deg, #91b5e4 50%, #fc4444 50%);
+  }
+
+  .textDescription {
+    margin: 0 1px 0 1rem !important;
+    padding: 0 !important;
+  }
+
+  .petsIcon {
+    margin: 0 1px 0 1rem !important;
+    padding: 1rem !important;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  body {
+    overflow: hidden !important;
+    background: linear-gradient(to bottom, #91b5e4, #fc4444) !important;
+  }
+
+  .descriptonPage {
+    width: 95% !important;
+    padding-top: 2rem !important;
+  }
+
+  .containerPage {
+    flex-direction: column;
+    background: linear-gradient(to bottom, #91b5e4, #fc4444);
+  }
+
+  .textDescription {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .petsIcon {
+    width: 95% !important;
+    margin: 3rem 0 !important;
+    padding: 0 !important;
+  }
+
+  .containerIcons {
+    margin: 1.5rem 1rem !important;
+  }
+
+  .btmPage {
+    color: black;
+    background-color: beige;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    overflow: visible !important;
+  }
+
+  .descriptonPage {
+    width: 100% !important;
+    padding-top: 1rem !important;
+
+  }
+
+  .textDescription {
+    font-size: 1rem !important;
+  }
+
+  .containerIcons {
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+    margin: 1.5rem 1rem !important;
+  }
+
+  .icons {
+    width: 2.5rem;
+    margin: .5rem .8rem !important;
+  }
+
+  .petsIcon {
+    width: 100% !important;
+    margin: 2rem 0 0 0 !important;
+  }
 }
