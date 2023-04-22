@@ -47,7 +47,7 @@ body {
 @media (max-width: 768px) {
 
   body {
-    overflow: hidden !important;
+    overflow: visible;
     background: linear-gradient(to bottom, #91b5e4, #fc4444) !important;
   }
 
@@ -83,9 +83,6 @@ body {
 }
 
 @media (max-width: 320px) {
-  body {
-    overflow: visible !important;
-  }
 
   .descriptonPage {
     width: 100% !important;
