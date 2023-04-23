@@ -36,7 +36,7 @@
   .containerNav {
     background-color: transparent;
     flex-wrap: wrap;
-    backdrop-filter: blur(100px);
+    background-color: rgba(0, 0, 0, 0.26);
   }
 
   .containerNav {
