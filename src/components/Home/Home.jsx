@@ -1,13 +1,13 @@
 import React from 'react';
 import Nav from './Nav/Nav';
 import FormPage from './Form/FormPage';
-import './home.css'
 import select from '../../assets/Icons/select.png'
+import './home.css'
 
 const Home = () => {
   return (
 
-    <div className='d-flex justify-content-center'>
+    <div className='containerHome'>
       <Nav />
       <div className='contentHome'>
         <div className='d-flex justify-content-center mt-5'>

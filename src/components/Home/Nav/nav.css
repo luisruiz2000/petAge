@@ -5,6 +5,7 @@
   left: 0;
   width: 10%;
   background-color: #6decb1fb;
+  backdrop-filter: blur(20px);
 }
 
 .iconHome {
@@ -17,4 +18,22 @@
   background-color: rgba(250, 235, 215, 0.377);
   padding: 0 1.5rem !important;
   border-radius: 30%;
+}
+
+@media (max-width: 1024px) {
+  .containerNav {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: row !important;
+    top: 0;
+    bottom: 85vh;
+    left: 0;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .containerNav {
+    background-color: transparent;
+  }
 }

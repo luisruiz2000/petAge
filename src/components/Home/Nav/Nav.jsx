@@ -48,35 +48,37 @@ const Nav = () => {
 
 
   return (
-    <div className='containerNav d-flex flex-column justify-content-around align-items-center'>
-      <button onClick={onClickDog} className='iconHome'>
-        <img className='icons' src={dog} />
-        <p>Perro</p>
-      </button>
-      <button onClick={onClickCat} className='iconHome'>
-        <img className='icons' src={cat} />
-        <p>Gato</p>
-      </button>
-      <button onClick={onClickHamster} className='iconHome'>
-        <img className='icons' src={hamster} />
-        <p>Hamster</p>
-      </button>
-      <button onClick={onClickBunny} className='iconHome'>
-        <img className='icons' src={bunny} />
-        <p>Conejo</p>
-      </button>
-      <button onClick={onClickIguana} className='iconHome'>
-        <img className='icons' src={iguana} />
-        <p>Iguana</p>
-      </button>
-      <button onClick={onClickTortuga} className='iconHome'>
-        <img className='icons' src={tortuga} />
-        <p>Tortuga</p>
-      </button>
-      <button onClick={onClickLoro} className='iconHome'>
-        <img className='icons' src={loro} />
-        <p>Loro</p>
-      </button>
+    <div>
+      <div className='containerNav d-flex flex-column justify-content-around align-items-center'>
+        <button onClick={onClickDog} className='iconHome'>
+          <img className='icons' src={dog} />
+          <p>Perro</p>
+        </button>
+        <button onClick={onClickCat} className='iconHome'>
+          <img className='icons' src={cat} />
+          <p>Gato</p>
+        </button>
+        <button onClick={onClickHamster} className='iconHome'>
+          <img className='icons' src={hamster} />
+          <p>Hamster</p>
+        </button>
+        <button onClick={onClickBunny} className='iconHome'>
+          <img className='icons' src={bunny} />
+          <p>Conejo</p>
+        </button>
+        <button onClick={onClickIguana} className='iconHome'>
+          <img className='icons' src={iguana} />
+          <p>Iguana</p>
+        </button>
+        <button onClick={onClickTortuga} className='iconHome'>
+          <img className='icons' src={tortuga} />
+          <p>Tortuga</p>
+        </button>
+        <button onClick={onClickLoro} className='iconHome'>
+          <img className='icons' src={loro} />
+          <p>Loro</p>
+        </button>
+      </div>
     </div>
   )
 }

@@ -1,3 +1,32 @@
 .iconSelect {
   width: 3rem;
 }
+
+@media (max-width: 1024px) {
+  .containerHome {
+    margin-top: 9rem !important;
+  }
+
+  .contentHome {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .containerHome {
+    background-color: transparent;
+  }
+
+  .containerHome .iconSelect {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .contentHome {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}

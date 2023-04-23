@@ -1,5 +1,4 @@
 .containerForm {
-  height: 80vh;
   margin-left: 10% !important;
 }
 
@@ -13,4 +12,50 @@
   border: solid 2px rgb(133, 223, 140);
   margin: 1rem !important;
   font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .containerForm {
+    justify-content: center !important;
+    align-items: start !important;
+    margin: 2rem 0 0 0 !important;
+    background-color: aliceblue !important;
+  }
+
+  .textForm {
+    padding: 0 0 0 1rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .containerForm {
+    background-color: transparent !important;
+    width: 100% !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .textForm {
+    padding: 1rem 2rem !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .containerInputs {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .line-right {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerInputs {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 }

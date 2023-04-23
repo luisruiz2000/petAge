@@ -105,18 +105,24 @@ const FormPage = () => {
     <div className=' containerForm d-flex justify-content-center align-items-center'>
       <div>
         <form onSubmit={handleSubmit} className='line-right d-flex flex-column text-start align-items-center mb-4'>
-          <input onChange={onChangeName} placeholder='Ingresa el nombre de tu mascota' className='inputsForm' type='text' />
-          <p className='text-danger mb-2'>{error.errorName}</p>
-          <input onChange={onChangeAge} placeholder={`Años humanos de ${petName ? petName : 'tu mascota'} `} className='inputsForm' type='number' />
-          <p className='text-danger mb-2'>{error.empty}</p>
+          <div className='containerInputs'>
+            <div>
+              <input onChange={onChangeName} placeholder='Ingresa el nombre de tu mascota' className='inputsForm' type='text' />
+              <p className='text-danger mb-2'>{error.errorName}</p>
+            </div>
+            <div>
+              <input onChange={onChangeAge} placeholder={`Años humanos de ${petName ? petName : 'tu mascota'} `} className='inputsForm' type='number' />
+              <p className='text-danger mb-2'>{error.empty}</p>
+            </div>
+          </div>
           <button type="submit" className="btn w-50 btn-warning btn-small py-2">Large button</button>
         </form><hr />
-        <div className='text-start mt-4'>
+        <div className='-start mt-4'>
           <span className='fs-3 text-success fw-bold'>{operationResult ? '¡Genial!' + ' ' + petName + ' ' + 'tiene' : ''}</span>
           <span className='fs-3 text-success fw-bold'> {operationResult}</span>
         </div>
       </div>
-      <div className='w-50 h-50 px-5 text-start fs-5'>
+      <div className=' textForm w-50 h-50 px-5 text-start fs-5'>
         <h2>{pet}</h2>
         <div> {resultDescription ? resultDescription : 'Ten en cuenta que el resultado es un cálculo aproximado basado en la edad promedio de la especie. La edad real de tu mascota puede variar según muchos factores, como su raza, estilo de vida y salud.'}</div>
       </div>
