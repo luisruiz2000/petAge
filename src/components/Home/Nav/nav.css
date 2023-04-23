@@ -35,5 +35,17 @@
 @media (max-width: 768px) {
   .containerNav {
     background-color: transparent;
+    flex-wrap: wrap;
+  }
+
+  .containerNav {
+    bottom: auto;
+    padding: .5rem 2rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .containerNav {
+    position: absolute;
   }
 }

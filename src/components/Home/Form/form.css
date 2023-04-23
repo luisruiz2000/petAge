@@ -1,5 +1,6 @@
 .containerForm {
   margin-left: 10% !important;
+  height: 90vh;
 }
 
 .line-right {
@@ -38,6 +39,7 @@
   }
 
   .textForm {
+    font-size: 1rem !important;
     padding: 1rem 2rem !important;
     width: 100% !important;
     text-align: center !important;

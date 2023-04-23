@@ -30,3 +30,9 @@
     margin: 0 !important;
   }
 }
+
+@media (max-width: 320px) {
+  .contentHome h1 {
+    padding-top: 10rem !important;
+  }
+}
