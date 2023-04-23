@@ -15,6 +15,11 @@
 }
 
 @media (max-width: 768px) {
+
+  .contentHome h1 {
+    padding-top: 10rem !important;
+  }
+
   .containerHome {
     background-color: transparent;
   }
